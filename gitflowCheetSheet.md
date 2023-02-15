@@ -1,4 +1,4 @@
-----------------------------CURSO DE GIT Y GITFLOW--------------------------------
+# CURSO DE GIT Y GITFLOW
 
 Comandos de Git basicos o frecuentes
 
