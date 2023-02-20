@@ -1,4 +1,4 @@
-# CURSO DE GIT Y GITFLOW
+# CHEETSHEET DE GIT Y GITFLOW
 
 
 
@@ -11,23 +11,23 @@
 
 ```shell
 
-$ git init: Crear un nuevo git
+$ git init # Crear un nuevo git
  
-$ git add: Agregar archivos al area de preparacion
+$ git add # Agregar archivos al area de preparacion
  
-$ git status: Estado del repositorio
+$ git status # Estado del repositorio
  
-$ git: commit -m pasar archivos del area de preparacion al repositorio local
+$ git # commit -m pasar archivos del area de preparacion al repositorio local
  
-$ git log: ver las versiones de archivos del repositorio
+$ git log # ver las versiones de archivos del repositorio
  
-$ git clone: clonar un repositorio remoto
+$ git clone # clonar un repositorio remoto
  
-$ git push: modificar el repositorio remoto, con su nueva actualizacion
+$ git push # modificar el repositorio remoto, con su nueva actualizacion
  
-$ git pull: actualizar tu repositorio local con la ultima version del remoto
+$ git pull # actualizar tu repositorio local con la ultima version del remoto
  
-$ git add . sirve para agregar todos los archivos modificados al area de preparacion
+$ git add . # sirve para agregar todos los archivos modificados al area de preparacion
 
 ```
 
@@ -77,22 +77,23 @@ $ git flow init
 **1. COMENZAR UNA CARACTERISTICA (FEATURE)**
 
 ```
-git flow feature start MYFEATURE
+$ git flow feature start MYFEATURE
 
 ```
+> Cambiar `MYFEATURE` por el nombre que le quieras dar a tu característica.
 ---
 
 **2. FINALIZAR UNA CARACTERISTICA**
 
 ```
 
-git flow feature finish MYFEACTURE Finaliza el desarrollo de una cacteristica.
+$ git flow feature finish MYFEATURE # Finaliza el desarrollo de una cacteristica.
 
-OBTENIENDO CARACTERISTICAS PUBLICADAS
+$OBTENIENDO CARACTERISTICAS PUBLICADAS
 
-git flow feature pull origin MYFEATURE Obten una caracteristica publicada por otro.
+$ git flow feature pull origin MYFEATURE # Obten una caracteristica publicada por otro.
 
-git flow feature track MYFEACTURE Puedes mantener un seguimiento de tus cambios.
+$ git flow feature track MYFEACTURE # Puedes mantener un seguimiento de tus cambios.
 
 
 ```
@@ -103,14 +104,21 @@ git flow feature track MYFEACTURE Puedes mantener un seguimiento de tus cambios.
 **COMO PUBLICAR UNA VERSION**
 
 ```
-
-git flow release start 1.0
-
-git flow release publish 1.0
-
-git flow release finish 1.0
-
-git push oirigin --all --follow-tags
+$ git checkout master
+ 
+$ git pull
+ 
+$ git checkout develop
+ 
+$ git pull
+ 
+$ git flow release start 1.0
+ 
+$ git flow release publish 1.0
+ 
+$ git flow release finish 1.0
+ 
+$ git push origin --all --follow-tags
 
 ```
 
@@ -123,32 +131,31 @@ git push oirigin --all --follow-tags
 
 ```
 
-git checkout develop
-
-git pull
-
-git checkout master
-
-git pull
-
-git flow hotfix star (Nombre)
-
-Hacer cambios
-
-git status (verifique el archivo de color rojo)
-
-git add . (agregar archivos)
-
-git commit -m 'Escribe un comentario'
-
-git flow hotfix finish (name)
-
-Recuerda poner una etiqueta de versión fija 1.2.x por ejemplo 1.2.2
-estabas en el maestro, y luego debes estar en la rama de desarrollo
-
-
-git push origin --all --follow-tags
-
+$ git checkout develop
+ 
+$ git pull
+ 
+$ git checkout master
+ 
+$ git pull
+ 
+$ git flow hotfix star (Nombre)
+ 
+# Hacer cambios
+ 
+$ git status # verifique el archivo de color rojo
+ 
+$ git add . # agregar archivos
+ 
+$ git commit -m 'Escribe un comentario'
+ 
+$ git flow hotfix finish (name)
+ 
+# Recuerda poner una etiqueta de versión fija 1.2.x por ejemplo 1.2.2
+# estabas en el maestro, y luego debes estar en la rama de desarrollo
+ 
+$ git push origin --all --follow-tags
+ 
 ```
 
 ## LICENSE
