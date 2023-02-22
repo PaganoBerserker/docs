@@ -139,7 +139,7 @@ $ git checkout master
  
 $ git pull
  
-$ git flow hotfix star (Nombre)
+$ git flow hotfix start (Nombre)
  
 # Hacer cambios
  
