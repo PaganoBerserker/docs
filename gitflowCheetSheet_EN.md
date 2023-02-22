@@ -175,7 +175,7 @@ Free Documentation License".
 
 - [Gustavo Bermudez](mailto:nizaries44@gmail.com)
 
-Revisor:
+Reviewer:
 
 - [David E. Perez Negron R.](mailto:david@neetsec.com) 
 
