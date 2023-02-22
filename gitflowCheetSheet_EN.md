@@ -62,8 +62,8 @@ $ git flow init
 
 ![](https://www.campingcoder.com/post/20180412-git-flow.png)
 
-* **Master**:Main branch that maintains the stable version of a software.
-* **Develop**:Branch used by one or more programmers for a software in testing mode.
+* **Master**: Main branch that maintains the stable version of a software.
+* **Develop**: Branch used by one or more programmers for a software in testing mode.
 * **Feature**: Temporary or local branch, used for each programmer to develop a specific function (library, function, class, etc.).
 * **Release**: Temporary branch only for publishing version tags and synchronizing develop with master. This is done when we have a stable version of software or a milestone for delivery.
 * **Hotfix**: Temporary branch used to fix critical errors or bugs in production code, usually used in emergency mode.
@@ -177,7 +177,7 @@ Free Documentation License".
 
 Revisor:
 
--[David E. Perez Negron R.](mailto:david@neetsec.com) 
+- [David E. Perez Negron R.](mailto:david@neetsec.com) 
 
 
 ## REFERENCES
