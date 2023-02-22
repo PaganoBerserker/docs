@@ -74,7 +74,7 @@ $ git flow init
 ---
 
 
-**1. START A FEATURE **
+**1. START A FEATURE**
 
 ```
 $ git flow feature start MYFEATURE
