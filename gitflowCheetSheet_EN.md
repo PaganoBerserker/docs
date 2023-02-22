@@ -170,7 +170,7 @@ A copy of the license is included in the section entitled "GNU
 Free Documentation License". 
 ```
 
-## CONTACTO Y DESARROLLADORES
+## CONTACT AND DEVELOPERS
 > Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
 
 - [Gustavo Bermudez](mailto:nizaries44@gmail.com)
@@ -183,4 +183,4 @@ Revisor:
 ## REFERENCES
 \[1\]  Daniel Kummer, "Git-flow cheatsheet", https://danielkummer.github.io/git-flow-cheatsheet/index.html), 2023.
 
-\[2\] www.campingcoder.com, "How to use git flow", https://www.campingcoder.com/2018/04/how-to-use-git-flow/, 2023.
+\[2\] www.campingcoder.com, "How to use git flow", https://www.campingcoder.com/2018/04/how-to-use-git-flow/, 2023.  
