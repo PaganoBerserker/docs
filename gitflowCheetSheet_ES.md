@@ -155,7 +155,7 @@ $ git flow hotfix finish (name)
 # estabas en el maestro, y luego debes estar en la rama de desarrollo
  
 $ git push origin --all --follow-tags
- 
+
 ```
 
 ## LICENSE
@@ -175,7 +175,13 @@ Free Documentation License".
 
 - [Gustavo Bermudez](nizaries44@gmail.com)
 
+Revisor:
+
+- [David E. Perez Negron R.](mailto:david@neetsec.com)
+
+---
+
 ## REFERENCIAS
-\[1\]  Daniel Kummer, "Git-flow cheatsheet", https://client.aragon.org/#/decentralizedclimate/, 2023.
+\[1\]  Daniel Kummer, "Git-flow cheatsheet", https://danielkummer.github.io/git-flow-cheatsheet/index.html), 2023.
 
 \[2\] www.campingcoder.com, "How to use git flow", https://www.campingcoder.com/2018/04/how-to-use-git-flow/, 2023.
