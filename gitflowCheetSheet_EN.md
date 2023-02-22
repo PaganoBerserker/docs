@@ -170,7 +170,7 @@ A copy of the license is included in the section entitled "GNU
 Free Documentation License". 
 ```
 
-## CONTACTO Y DESARROLLADORES
+## CONTACT AND DEVELOPERS
 > Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
 
 - [Gustavo Bermudez](mailto:nizaries44@gmail.com)
