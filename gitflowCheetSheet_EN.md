@@ -1,4 +1,4 @@
-# CHEETSHEET DE GIT Y GITFLOW
+# GIT AND GITFLOW CHEATSHEET
 
 
 
@@ -6,29 +6,28 @@
 
 ---
 
-### Comandos de Git basicos o frecuentes
+### Basic or common Git Commands
 
 
 ```shell
 
-$ git init # Crear un nuevo git
- 
-$ git add # Agregar archivos al area de preparacion
- 
-$ git status # Estado del repositorio
- 
-$ git # commit -m pasar archivos del area de preparacion al repositorio local
- 
-$ git log # ver las versiones de archivos del repositorio
- 
-$ git clone # clonar un repositorio remoto
- 
-$ git push # modificar el repositorio remoto, con su nueva actualizacion
- 
-$ git pull # actualizar tu repositorio local con la ultima version del remoto
- 
-$ git add . # sirve para agregar todos los archivos modificados al area de preparacion
+$ git init # Create a new git repository
 
+$ git add # Add files to the staging area
+
+$ git status # Check the status of the repository
+
+$ git commit -m # Move files from the staging area to the local repository with a commit message
+
+$ git log # View the file versions in the repository
+
+$ git clone # Clone a remote repository
+
+$ git push # Modify the remote repository with your new changes
+
+$ git pull # Update your local repository with the latest changes from the remote
+
+$ git add . # Add all modified files to the staging area
 ```
 
 ---
@@ -36,8 +35,9 @@ $ git add . # sirve para agregar todos los archivos modificados al area de prepa
 ## GIT FLOW 
 ---
 
-### Instalar en linux debian
-Para instalar git flow, se requiere tener previamente git, y se executan los siguientes comandos en tu terminal ya sea con sudo o como root.
+### To install git flow on Debian Linux, 
+
+You need to have git installed first. Here are the commands you can execute in your terminal as sudo or root:
 
 ```
 
@@ -49,24 +49,24 @@ $ sudo apt-get install git-flow
 
 
 
-### INICIALIZAR
-Una vez que estas dentro de tu directorio git o repositorio clonado, inicializa el git flow:
+### INITIALIZE
+Once you're inside your git directory or cloned repository, initialize git flow:
+
 ```
 
 $ git flow init
 
 ```
 
-### RAMAS DE GIT FLOW
+### GIT FLOW BRANCHES
 
 ![](https://www.campingcoder.com/post/20180412-git-flow.png)
 
-* **Master**: Rama principal que mantiene la version estable de un software.
-* **Develop**: Rama que se utiliza por uno o varios programadores para un software en modo pruebas. 
-* **Feature**: Rama temporal o local, que sirve para que cada programador desarrolle alguna funcion especifica (Libreria, funcion, clase, etc.). 
-* **Release**: Rama temporal solo para publicar las etiquetas de versiones y sincronizar develop con master, esto se hace cuando tenemos una version estable de software o un punto para entregable.
-* **Hotfix**: Rama temporal que se utiliza para arreglar errores criticos o bugs en el codigo de produccion, generalmente se utiliza en modo de emergencia.
-
+* **Master**: Main branch that maintains the stable version of a software.
+* **Develop**: Branch used by one or more programmers for a software in testing mode.
+* **Feature**: Temporary or local branch, used for each programmer to develop a specific function (library, function, class, etc.).
+* **Release**: Temporary branch only for publishing version tags and synchronizing develop with master. This is done when we have a stable version of software or a milestone for delivery.
+* **Hotfix**: Temporary branch used to fix critical errors or bugs in production code, usually used in emergency mode.
 
 #### FEATURES
 
@@ -74,34 +74,34 @@ $ git flow init
 ---
 
 
-**1. COMENZAR UNA CARACTERISTICA (FEATURE)**
+**1. START A FEATURE **
 
 ```
 $ git flow feature start MYFEATURE
 
 ```
-> Cambiar `MYFEATURE` por el nombre que le quieras dar a tu característica.
+> Replace "MYFEATURE" with the name you want to give your feature.
 ---
 
-**2. FINALIZAR UNA CARACTERISTICA**
+**2. FINISH A FEATURE**
 
 ```
 
-$ git flow feature finish MYFEATURE # Finaliza el desarrollo de una cacteristica.
 
-$OBTENIENDO CARACTERISTICAS PUBLICADAS
+$ git flow feature finish MYFEATURE # Finish development of a feature.
 
-$ git flow feature pull origin MYFEATURE # Obten una caracteristica publicada por otro.
+$ GETTING PUBLISHED FEATURES
 
-$ git flow feature track MYFEACTURE # Puedes mantener un seguimiento de tus cambios.
+$ git flow feature pull origin MYFEATURE # Get a feature published by another.
 
+$ git flow feature track MYFEATURE # You can keep track of your changes.
 
 ```
 
 #### RELEASE
 ---
 
-**COMO PUBLICAR UNA VERSION**
+**HOW TO PUBLISH A VERSION**
 
 ```
 $ git checkout master
@@ -127,7 +127,7 @@ $ git push origin --all --follow-tags
 #### HOTFIX
 ---
 
-**COMO PUBLICAR HACER UN HOTFIX**
+**HOW TO PUBLISH A HOTFIX**
 
 ```
 
@@ -139,21 +139,21 @@ $ git checkout master
  
 $ git pull
  
-$ git flow hotfix star (Nombre)
+$ git flow hotfix start (Name)
  
-# Hacer cambios
+# Make changes
  
-$ git status # verifique el archivo de color rojo
+$ git status # Check the file in red
  
-$ git add . # agregar archivos
+$ git add . # add files
  
-$ git commit -m 'Escribe un comentario'
+$ git commit -m # 'Write a comment'
  
 $ git flow hotfix finish (name)
  
-# Recuerda poner una etiqueta de versión fija 1.2.x por ejemplo 1.2.2
-# estabas en el maestro, y luego debes estar en la rama de desarrollo
- 
+# Remember to put a fixed version tag 1.2.x for example 1.2.2
+# You were on master, and then you should be on the development branch 
+
 $ git push origin --all --follow-tags
  
 ```
@@ -170,12 +170,17 @@ A copy of the license is included in the section entitled "GNU
 Free Documentation License". 
 ```
 
-## CONTACTO Y DESARROLLADORES
+## CONTACT AND DEVELOPERS
 > Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
 
-- [Gustavo Bermudez](nizaries44@gmail.com)
+- [Gustavo Bermudez](mailto:nizaries44@gmail.com)
 
-## REFERENCIAS
-\[1\]  Daniel Kummer, "Git-flow cheatsheet", https://client.aragon.org/#/decentralizedclimate/, 2023.
+Reviewer:
 
-\[2\] www.campingcoder.com, "How to use git flow", https://www.campingcoder.com/2018/04/how-to-use-git-flow/, 2023.
+- [David E. Perez Negron R.](mailto:david@neetsec.com) 
+
+
+## REFERENCES
+\[1\]  Daniel Kummer, "Git-flow cheatsheet", https://danielkummer.github.io/git-flow-cheatsheet/index.html), 2023.
+
+\[2\] www.campingcoder.com, "How to use git flow", https://www.campingcoder.com/2018/04/how-to-use-git-flow/, 2023.  
