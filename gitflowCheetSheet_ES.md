@@ -17,7 +17,7 @@ $ git add # Agregar archivos al area de preparacion
  
 $ git status # Estado del repositorio
  
-$ git # commit -m pasar archivos del area de preparacion al repositorio local
+$ git  commit -m # pasar archivos del area de preparacion al repositorio local
  
 $ git log # ver las versiones de archivos del repositorio
  
