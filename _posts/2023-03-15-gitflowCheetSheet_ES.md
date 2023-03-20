@@ -1,6 +1,10 @@
-# CHEETSHEET DE GIT Y GITFLOW
-
-
+---
+title: CHEETSHEET DE GIT Y GITFLOW ES
+author: Decentralized Climate Foundation
+date: 2023-03-15
+category: Git-flow
+layout: post
+---
 
 ## GIT 
 
@@ -17,7 +21,7 @@ $ git add # Agregar archivos al area de preparacion
  
 $ git status # Estado del repositorio
  
-$ git # commit -m pasar archivos del area de preparacion al repositorio local
+$ git  commit -m # pasar archivos del area de preparacion al repositorio local
  
 $ git log # ver las versiones de archivos del repositorio
  
@@ -139,7 +143,7 @@ $ git checkout master
  
 $ git pull
  
-$ git flow hotfix star (Nombre)
+$ git flow hotfix start (Nombre)
  
 # Hacer cambios
  
