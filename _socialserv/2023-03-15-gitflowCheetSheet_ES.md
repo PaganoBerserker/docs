@@ -4,6 +4,7 @@ author: Decentralized Climate Foundation
 date: 2023-03-15
 category: Git-flow
 layout: post
+permalink: /git-flow-ES
 ---
 
 ## GIT 

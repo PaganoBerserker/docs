@@ -48,6 +48,9 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+include:
+  - _socialserv
+
 page_width: 800px
 
 destination:      ./_site
