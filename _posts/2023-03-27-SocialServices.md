@@ -4,7 +4,6 @@ author: David E. Perez Negron R.
 date: 2023-03-27
 category: SocialServices
 layout: post
-permalink: /social-services
 ---
 
 ## WorkFlow Documents
