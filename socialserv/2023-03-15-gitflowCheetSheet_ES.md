@@ -2,9 +2,8 @@
 title: CHEETSHEET DE GIT Y GITFLOW ES
 author: Decentralized Climate Foundation
 date: 2023-03-15
-category: Git-flow
+category: git-flow
 layout: post
-permalink: /git-flow-ES
 ---
 
 ## GIT 
