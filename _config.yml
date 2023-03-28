@@ -40,6 +40,9 @@ syntax_highlighter_style: colorful
 
 markdown_ext:     markdown,mkdown,mkdn,mkd,md
 
+include:
+  - socialserv
+
 # Permalinks
 permalink:        /:categories/:year-:month-:day-:title:output_ext
 
@@ -47,10 +50,6 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-
-
-include: 
-  - _socialserv
 
 page_width: 800px
 

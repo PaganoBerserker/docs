@@ -4,8 +4,6 @@ author: Decentralized Climate Foundation
 date: 2023-03-15
 category: workflow
 layout: post
-permalink: /socialserv-workflow
-
 ---
 
 ## Sobre el Servicio Social 

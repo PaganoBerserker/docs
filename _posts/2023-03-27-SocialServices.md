@@ -10,7 +10,7 @@ layout: post
 
 | Document | Last Update | 
 | -------- | -------- |
-| [WorkFlow Model](/socialserv-workflow) | 2023-01 |
+| [WorkFlow Model](/socialserv/2023-03-27-socialServicesWorkFlowModel) | 2023-01 |
 
 ## Lessons & Labs
 
@@ -26,8 +26,8 @@ layout: post
 
 | Document | Last Update |
 | -------- | -------- |
-| [Git & GitFlow ES](/git-flow-ES) |  2023-02-16 |
-| [Git & GitFlow EN](/git-flow-EN) |  2023-02-16 |
+| [Git & GitFlow ES](/socialserv/2023-03-15-gitflowCheetSheet_ES) |  2023-02-16 |
+| [Git & GitFlow EN](/socialserv/2023-03-15-gitflowCheetSheet_EN) |  2023-02-16 |
 
 ## Social Services/ JCF templates 
 
