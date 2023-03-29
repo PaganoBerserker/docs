@@ -34,7 +34,8 @@ After we have the repository, the template for the webpage is downloaded and imp
 
 [**Template Dowload**](https://github.com/sighingnow/jekyll-gitbook)
 
-We can use the terminal to download the template faster, and thus have the complete directory without errors.
+We can use the terminal to download the template faster, and thus have the
+complete directory without errors.
 
 
 ```linux
@@ -43,25 +44,24 @@ git clone https://github.com/sighingnow/jekyll-gitbook.git
 
 The image shows the replacement of the template files (jekyll-gitboo) in our "docs" file.
 
-![](https://i.ibb.co/g7S6mMx/Screenshot-2023-03-15-13-32-37.png)
-
+![](/assets/Readme/13.32.37.png)
 
 Next, we need to add the .md files from our "docs" folder to the posts on the page. To do this, we must edit each file with its respective header, as shown below, and give it a name that will make it easier for us to keep track of [date-name-language].
 
 Do not forget to respect the format of the template, as well as using the guide posts that come with the same template as examples, in case you have doubts about how to edit the document.
 
-![](https://i.ibb.co/xgCKVPp/Screenshot-2023-03-15-14-11-21.png)
-![](https://i.ibb.co/wpmTPm5/Screenshot-2023-03-15-14-18-39.png)
+![](/assets/Readme/14.11.21.png)
+![](/assets/Readme/14.18.39.png)
 
 We must properly edit the title (this will be the main title, the others will be subtitles, if using .md, ## should be used for editing the remaining text), the creation date, author, category, and layout.
 
 When we have the files edited with their respective header, we must move the files to "posts" so that when we launch the page, we can visualize the desired change.
 
-![](https://i.ibb.co/tm7W3v3/Screenshot-2023-03-15-14-34-15.png)
+![](/assets/Readme/14.34.15.png)
 
 We can go to the URL of our server and we will be able to see that the changes have been made.
 
-![](https://i.ibb.co/jvQ5YQ4/Screenshot-2023-03-15-14-34-41.png)
+![](/assets/Readme/13.32.37.png)
 
 
 
