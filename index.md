@@ -3,7 +3,6 @@ title: DCF DOCUMENT DIRECTORY
 author: Decentralized Climate Foundation
 date: 2023-03-29
 layout: home
-title: DCF DOCUMENT DIRECTORY
 ---
 
 
