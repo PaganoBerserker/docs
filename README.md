@@ -68,7 +68,7 @@ We can go to the URL of our server and we will be able to see that the changes h
 
 
 
-### Licence.
+### License.
 ```
 Copyright (C) DECENTRALIZED CLIMATE FOUNDATION A.C.
 Permission is granted to copy, distribute and/or modify this document
