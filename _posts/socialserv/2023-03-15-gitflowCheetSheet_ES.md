@@ -1,5 +1,5 @@
 ---
-title: CHEETSHEET DE GIT Y GITFLOW ES
+title: Git & Gitflow Cheetsheet  ES
 author: Decentralized Climate Foundation
 date: 2023-03-15
 category: git-flow

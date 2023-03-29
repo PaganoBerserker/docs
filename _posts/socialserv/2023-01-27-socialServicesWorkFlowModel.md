@@ -1,5 +1,5 @@
 ---
-title: Workflow DCF Servicio Social
+title: Social Service Workflow ES
 author: Decentralized Climate Foundation
 date: 2023-03-15
 category: workflow
