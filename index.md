@@ -14,8 +14,8 @@ layout: home
 
 | Document | Last Update |
 | -------- | -------- |
-| [General Assembly No. 1](https://hackmd.io/PJjDdwusTCu2rkKOGtnqcg?view)| 2022-12-31 |
-| General Assembly No. 2 (Unfinished)| 2023-01-02 |
+| [General Assembly No. 1](/assets/ActaAsamblea1.pdf)| 2022-12-31 |
+
 
 ### Monthly Reports
 
