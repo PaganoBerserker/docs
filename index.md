@@ -14,7 +14,7 @@ layout: home
 
 | Document | Last Update |
 | -------- | -------- |
-| [General Assembly No. 1](/assets/ActaAsamblea1.pdf)| 2022-12-31 |
+| <a href="/assets/ActaAsamblea1.pdf" target="_blank">General Assembly No. 1</a> | 2022-12-31 |
 
 
 ### Monthly Reports
