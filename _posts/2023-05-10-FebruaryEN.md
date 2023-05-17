@@ -26,14 +26,14 @@ The activities for the month of February were divided into 4 main divisions that
 Img. 1 At the facilities of the central auditorium of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute.
 
 ![](/assets/februaryreporten/Img2.jpg)
-Img. 3 At the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, about to start the project.
+Img. 2 At the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, about to start the project.
 
 ![](/assets/februaryreporten/Img3.jpg)
 Img. 3 At the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, about to start the project.
 
 
 ![](/assets/februaryreporten/Img4.jpg)
-Img. 5 "Leaving the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, concluding our participation."
+Img. 4 "Leaving the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, concluding our participation."
 
 
 The link to the event can be consulted in Annexe 1.
