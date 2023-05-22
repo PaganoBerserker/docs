@@ -86,7 +86,7 @@ Send a Pull Request to the Develop branch of DCF docs, filling in the requiremen
 - As DCF is a decentralized project, remember that any file, image, or document that you want to contribute needs to have a reasonable size to avoid conflicts when processing it. There are ways to compress it.
 
 
-## HOW TO MAKE A POST
+## :zap: HOW TO MAKE A POST :zap:
 ### How to Make a Post in a Jekyll Repository
 
 If you want to publish a post or article on docs.decentralizedclimate.org, follow these steps:
@@ -119,8 +119,8 @@ layout: post
 
 
 
-  3. Add a link to the post in the DCF or social services directory by following these steps:
-       3.1. For the social services directory, go to the following link and paste the markdown of the post under the "Mans & CheetSheets" section in the following format:
+3. Add a link to the post in the DCF or social services directory by following these steps:
+ 3.1. For the social services directory, go to the following link and paste the markdown of the post under the "Mans & CheetSheets" section in the following format:
 
 ```
 ## :fire:  Mans & CheetSheets :fire:
@@ -129,15 +129,15 @@ layout: post
 | -------- | -------- |
 | [Git & GitFlow ES]({% post_url socialserv/2023-03-15-gitflowCheetSheet_ES %}) |  2023-02-16 |
 | [Git & GitFlow EN]({% post_url socialserv/2023-03-15-gitflowCheetSheet_EN %}) |  2023-02-16 |
-				          ```
+```
 
 
 3.2. Similarly, for the DCF directory, add a link with these example directives to the following link:
 
 ```
 https://github.com/DECENTRALIZEDCLIMATE/docs/blob/develop/index.md
-
 ```
+
 >Note that the URL is not a permalink. It is in the format YYYY-MM-DD-myposttopic without the .md extension.
 
 
@@ -154,6 +154,7 @@ https://github.com/DECENTRALIZEDCLIMATE/docs/blob/develop/index.md
 
 
 ### License. :mechanical_arm:
+
 ```
 Copyright (C) DECENTRALIZED CLIMATE FOUNDATION A.C.
 Permission is granted to copy, distribute and/or modify this document
@@ -170,7 +171,7 @@ Free Documentation License".
 
 
 ### Author:
-> Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
+>Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
 
 Author:
 - [Gustavo Bermudez](mailto:nizaries44@gmail.com)
