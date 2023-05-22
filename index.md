@@ -12,8 +12,7 @@ layout: home
 
 | Document | Last Update |
 | -------- | -------- |
-| [General Assembly No. 1]({% post_url 2022-12-31-generalassemblyno1  %})| 2022-12-31 |
-| General Assembly No. 2 (Unfinished)| 2023-01-02 |
+| <a href="/assets/ActaAsamblea1.pdf" target="_blank">General Assembly No. 1</a> | 2022-12-31 |
 
 ### Monthly Reports
 
