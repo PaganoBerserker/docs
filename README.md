@@ -67,7 +67,7 @@ It is important to provide all relevant information so that others can understan
 
 ---
 
-### How to contribute after creating my issue
+### :speech_balloon: How to contribute after creating my issue :speech_balloon:
 
 You must clone the [docs](https://github.com/DECENTRALIZEDCLIMATE/docs)  repository to your computer (having the necessary tools and packages to run Jekyll on your computer).
 
@@ -81,9 +81,9 @@ When you have the repository perfectly installed and configured, you create, imp
 
 Send a Pull Request to the Develop branch of DCF docs, filling in the requirements, such as a brief title and comments on what was done. If everything is approved, your issue will be marked as completed and the changes will be added to the project.
 
-### Suggestions:
+#### Suggestions:
 
-- As DCF is a decentralized project, remember that any file, image, or document that you want to contribute needs to have a reasonable size to avoid conflicts when processing it. There are ways to compress it.
+>As DCF is a decentralized project, remember that any file, image, or document that you want to contribute needs to have a reasonable size to avoid conflicts when processing it. There are ways to compress it.
 
 
 ## :zap: HOW TO MAKE A POST :zap:
@@ -170,12 +170,12 @@ Free Documentation License".
 [Decentralized Climate Foundation](https://t.me/decentralizedclimate)
 
 
-### Author:
+### CONTACT AND DEVELOPERS
 >Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
 
 Author:
-- [Gustavo Bermudez](mailto:nizaries44@gmail.com)
-												  
+- [Gustavo Bermudez](mailto:nizaries44@gmail.com)		
+										  
 Reviewer:
 - [David E. Perez Negron R.](mailto:david@neetsec.com)
 
