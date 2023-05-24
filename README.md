@@ -26,8 +26,64 @@ The purpose of the README is to guide on how to contribute to the DCF
 
 Before contributing to DCF, you need to prepare your Linux system with Jekyll by following these steps.
 
+As mentioned before, you should check that your Linux machine has Ruby version 2.5.0 or higher, including all headers. (If you are not sure if your version has Ruby, you can verify it with the command ruby -v).
+
+```shell
+
+$ ruby -v
+
+$ sudo apt-get install ruby-full
+
+```
+
+Please also verify that you have the latest version of RubyGems by using the command gem -v. If it is not installed, you can proceed with the installation.
 
 
+```shell
+
+$ gem -v
+
+$ gem update --system
+
+
+```
+
+Make sure that you have GCC and Make installed (You can check their installation by using the commands gcc -v, g++ -v, and make -v, respectively).
+
+
+```shell
+
+$ gcc -v
+
+$ g++ -v 
+
+$ make -v
+
+$ sudo apt-get update
+
+$ sudo apt-get install gcc
+
+$ sudo apt-get update
+
+$ sudo apt-get install make
+
+```
+
+Now we need to proceed with installing Bundle and its gems:
+
+```shell
+
+
+$ gem install jekyll bundler
+
+$ bundle install
+
+$ bundle exec jekyll serve 
+
+
+```
+
+Remember that the last command is to run the website and verify that the contribution runs correctly.
 
 
 ## :scroll: How to contribute to DCF.  :scroll:
