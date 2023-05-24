@@ -94,7 +94,7 @@ Send a Pull Request to the Develop branch of DCF docs, filling in the requiremen
 >As DCF is a decentralized project, remember that any file, image, or document that you want to contribute needs to have a reasonable size to avoid conflicts when processing it. There are ways to compress it.
 
 
-## :zap: HOW TO MAKE A POST :zap:
+## :zap: HOW TO MAKE A POST (CONTRIBUTION)  :zap:
 ### How to Make a Post in a Jekyll Repository
 
 If you want to publish a post or article on docs.decentralizedclimate.org, follow these steps:
@@ -159,6 +159,8 @@ https://github.com/DECENTRALIZEDCLIMATE/docs/blob/develop/index.md
 
 7. If you have any questions, you can convene a meeting or workshop with the board of directors.
 
+>If you want to include images, but they have a high definition and therefore are very heavy, you can use tools to reduce their size so that they load more easily on WEB3.(Keep in mind that whenever you do this, the image should not lose too much fidelity; reducing it to the appropriate size is the best option).
+EXAMPLE: https://squoosh.app/
 
 
 ### License. :mechanical_arm:
