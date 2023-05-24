@@ -22,7 +22,7 @@ The purpose of the README is to guide on how to contribute to the DCF
 * Access to [Fleek](https://fleek.co/) account or creating one.
 * You must have installed [Rubygems](https://rubygems.org/pages/download) (check your Gems version using gem -v),[GCC, and Make](https://www.delftstack.com/es/howto/linux/how-to-install-gcc-compiler-on-ubuntu/) (check versions using gcc -v, g++ -v, and make -v), as well as [Ruby 2.5.0](https://www.ruby-lang.org/es/documentation/installation/) (check your Ruby version using ruby -v).
 
-## Installation
+## :electric_plug: Installation :electric_plug:
 
 Before contributing to DCF, you need to prepare your Linux system with Jekyll by following these steps.
 
