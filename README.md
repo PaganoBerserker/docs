@@ -222,7 +222,6 @@ layout: post
 | [Git & GitFlow ES]({% post_url 2023-05-10-January %}) |  2023-01-10 |
 | [Git & GitFlow EN]({% post_url 2023-05-10-FebruaryES %}) |  2023-02-10 |
 ```
->Note that only the name is added in the previously mentioned format YYYY-MM-DD-myposttopic.md 
 
 >Note that the URL is not a permalink. It is in the format YYYY-MM-DD-myposttopic without the .md extension.
 
