@@ -212,7 +212,7 @@ layout: post
 | [WorkFlow Model]({% post_url socialserv/2023-01-27-socialServicesWorkFlowModel %}) | 2023-01 |
 ```
 
-- Traducción: To add a link for the docs project in Mans & CheetSheets, you should go to /docs/index.md and add the link in the following format:
+- To add a link for the docs project in Mans & CheetSheets, you should go to /docs/index.md and add the link in the following format:
 
 
 ```shell
