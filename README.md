@@ -170,66 +170,70 @@ Send a Pull Request to the Develop branch of DCF docs, filling in the requiremen
 
 If you want to publish a post or article on docs.decentralizedclimate.org, follow these steps:
 
-1. Create a markdown file in the following directory if it's for the DCF directory:
+**1.-** Create a markdown file in the following directory if it's for the DCF directory:
 
 ```
 https://github.com/DECENTRALIZEDCLIMATE/docs/tree/develop/_posts/
 
-or in the following directory if it's for social services:
-```
+Or in the following directory if it's for social services:
 
-```
 https://github.com/DECENTRALIZEDCLIMATE/docs/tree/develop/_posts/socialserv
 ```
+>Here we are simply specifying the path within the docs project, both for social services and for the docs project.
 
-2. The post must contain the following data:
-2.1. A header with the following data in markdown format:
+**2.-** The post must contain the following data:
+
+- A header with the following data in markdown format:
 
 
 ```
 ---
-title: Git & Gitflow Cheetsheet EN
+title: Monthly Activity Report of the Decentralized Climate Foundation A.C. January.
 author: Decentralized Climate Foundation
-date: 2023-03-15
-category: git-flow
+date: 2023-05-10
 layout: post
 ---
+
 ```
- 2.2. A file name starting with the date in the format YYYY-MM-DD-myposttopic.md. Some examples already exist in the directory.
+
+- A file name starting with the date in the format YYYY-MM-DD-myposttopic.md. Some examples already exist in the directory.
 
 
 
-3. Add a link to the post in the DCF or social services directory by following these steps:
- 3.1. For the social services directory, go to the following link and paste the markdown of the post under the "Mans & CheetSheets" section in the following format:
+**3.-** Add link a decentralized post without using permalinks:
 
+- To add a link for social services in WorkFlow Documents, you need to go to /docs/_pages/socialServices.md and add the link in the following format:
+ 
 
-## :fire:  Mans & CheetSheets :fire:
+```shell
+## WorkFlow Documents
+| Document | Last Update | 
+| -------- | -------- |
+| [WorkFlow Model]({% post_url socialserv/2023-01-27-socialServicesWorkFlowModel %}) | 2023-01 |
+```
+
+- Traducción: To add a link for the docs project in Mans & CheetSheets, you should go to /docs/index.md and add the link in the following format:
 
 
 ```shell
+## Mans & CheetSheets
 | Document | Last Update |
 | -------- | -------- |
-| [Git & GitFlow ES]({% post_url socialserv/2023-03-15-gitflowCheetSheet_ES %}) |  2023-02-16 |
-| [Git & GitFlow EN]({% post_url socialserv/2023-03-15-gitflowCheetSheet_EN %}) |  2023-02-16 |
+| [Git & GitFlow ES]({% post_url 2023-05-10-January %}) |  2023-01-10 |
+| [Git & GitFlow EN]({% post_url 2023-05-10-FebruaryES %}) |  2023-02-10 |
 ```
-
-
-3.2. Similarly, for the DCF directory, add a link with these example directives to the following link:
-
-```
-https://github.com/DECENTRALIZEDCLIMATE/docs/blob/develop/index.md
-```
+>Note that only the name is added in the previously mentioned format YYYY-MM-DD-myposttopic.md 
 
 >Note that the URL is not a permalink. It is in the format YYYY-MM-DD-myposttopic without the .md extension.
 
 
-4. Optional: You can fork the project on your user account on the develop branch and link it to hackmd.io to edit before making a commit to your own repository. Then, submit a pull request, or edit the post directly in the GitHub editor.
+**4.-** Optional: You can fork the project on your user account on the develop branch and link it to hackmd.io to edit before making a commit to your own repository. Then, submit a pull request, or edit the post directly in the GitHub editor.
 
-5. When your request is accepted on the develop branch, it will appear on the following link:
+**5.-** When your request is accepted on the develop branch, it will appear on the following link:
 
 [**develop branch website**](https://dev.docs.decentralizedclimate.org/)
 
-6. Additionally, if you want to add images to your post, place them in the assets directory. Please refer to the README for more information.
+**6.-** Additionally, if you want to add images to your post, place them in the assets directory. Please refer to the README for more information.
 
 **Example:**
 
@@ -264,7 +268,7 @@ Free Documentation License".
 >Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
 
 Author:
-- [Gustavo Bermudez](mailto:nizaries44@gmail.com)		
+- [Gustavo Bermudez](mailto:nizaries44@gmail.com)
 										  
 Reviewer:
 - [David E. Perez Negron R.](mailto:david@neetsec.com)
