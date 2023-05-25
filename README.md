@@ -16,11 +16,10 @@ The purpose of the README is to guide on how to contribute to the DCF
 
 ### System requirements. :card_file_box:
 
-* Knowledge of Git and GitHub.
-* Having previously read the Jekyll documentation.
-* Basic concepts about IPFS.
 * Access to [Fleek](https://fleek.co/) account or creating one.
-* You must have installed [Rubygems](https://rubygems.org/pages/download) (check your Gems version using gem -v),[GCC, and Make](https://www.delftstack.com/es/howto/linux/how-to-install-gcc-compiler-on-ubuntu/) (check versions using gcc -v, g++ -v, and make -v), as well as [Ruby 2.5.0](https://www.ruby-lang.org/es/documentation/installation/) (check your Ruby version using ruby -v).
+* You must have installed [Rubygems version 2.5.0 or higher.](https://rubygems.org/pages/download) (check your Gems version using gem -v  since you may already have it installed on your machine).
+* [GCC 10.2.1 and Make 4.3 or higher](https://www.delftstack.com/es/howto/linux/how-to-install-gcc-compiler-on-ubuntu/) (check versions using gcc -v, g++ -v, and make -v since you may already have it installed on your machine), 
+* As well as [Ruby 2.5.0](https://www.ruby-lang.org/es/documentation/installation/) (check your Ruby version using ruby -v).
 
 ## :electric_plug: Installation :electric_plug:
 
@@ -48,28 +47,31 @@ $ gem update --system
 
 ```
 
-Make sure that you have GCC and Make installed (You can check their installation by using the commands gcc -v, g++ -v, and make -v, respectively).
+Make sure that you have GCC 10.2.1 and Make 4.3 or higher installed (You can check their installation by using the commands gcc -v, g++ -v, and make -v, respectively).
 
 
 ```shell
 
-$ gcc -v
+$ sudo apt-get update
 
-$ g++ -v 
+$ sudo apt-get install gcc make
 
 $ make -v
 
-$ sudo apt-get update
+GNU Make 4.3                                                                      
+Built for x86_64-pc-linux-gnu                                                     
+Copyright (C) 1988-2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.                
+There is NO WARRANTY, to the extent permitted by law. 
 
-$ sudo apt-get install gcc
+$ gcc -v
 
-$ sudo apt-get update
-
-$ sudo apt-get install make
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
 
 ```
 
-Now we need to proceed with installing Bundle and its gems:
+Now we need to proceed with installing Bundle 2.4.8 or higher and its gems:
 
 ```shell
 
@@ -78,21 +80,26 @@ $ gem install jekyll bundler
 
 $ bundle install
 
-$ bundle exec jekyll serve 
+$ bindle -v
 
+Bundler version 2.4.8
+
+$ bundle exec jekyll serve
+
+Browse to http://localhost:4000
 
 ```
 
 Remember that the last command is to run the website and verify that the contribution runs correctly.
 
 
-## :scroll: How to contribute to DCF.  :scroll:
+## :scroll: How to contribute to Docs Project DCF.  :scroll:
 
-### :notebook: "Verify that there are no issues in DCF."  :notebook:
+### :notebook: "Verify that there are no issues in Docs Project DCF."  :notebook:
 
-"Verify that there are no issues in DCF that address the contribution or problem you wish to collaborate on (as it may have already been started by another user)."
+"Verify that there are no issues in Docs Project  DCF that address the contribution or problem you wish to collaborate on (as it may have already been started by another user)."
 
-You can check the issues at the following [**link:**](https://github.com/orgs/DECENTRALIZEDCLIMATE/projects/1)
+You can check the issues at the following [**link:**](https://github.com/DECENTRALIZEDCLIMATE/docs/issues)
 
 
 #### :artificial_satellite:  "How to create a proposal or an issue:" :artificial_satellite:
@@ -105,10 +112,18 @@ After accessing the issues link, we must check if there is no related proposal o
 
 
 ![](/assets/Readme/p1.png)
+
 **Img1:** At the bottom of the issues, you can add a new one (Remember to check that there is no related open issue and its status).
 
 
-![](/assets/Readme/p2.png)
+![](/assets/Readme/p3.png) 
+
+**Img2:** Once you have confirmed that there is no open issue, you can click on "Create a new issue".
+
+
+![](/assets/Readme/p2.png) 
+
+**Img3:** When contributing, you must specify a short title and also provide a description of the error that will be corrected.
 
 
 ---
@@ -159,6 +174,7 @@ If you want to publish a post or article on docs.decentralizedclimate.org, follo
 
 ```
 https://github.com/DECENTRALIZEDCLIMATE/docs/tree/develop/_posts/
+
 or in the following directory if it's for social services:
 ```
 
@@ -186,9 +202,11 @@ layout: post
 3. Add a link to the post in the DCF or social services directory by following these steps:
  3.1. For the social services directory, go to the following link and paste the markdown of the post under the "Mans & CheetSheets" section in the following format:
 
-```
+
 ## :fire:  Mans & CheetSheets :fire:
 
+
+```shell
 | Document | Last Update |
 | -------- | -------- |
 | [Git & GitFlow ES]({% post_url socialserv/2023-03-15-gitflowCheetSheet_ES %}) |  2023-02-16 |
@@ -209,11 +227,16 @@ https://github.com/DECENTRALIZEDCLIMATE/docs/blob/develop/index.md
 
 5. When your request is accepted on the develop branch, it will appear on the following link:
 
-[**develop branch website**](https://develop.docs.decentralizedclimate.org/)
+[**develop branch website**](https://dev.docs.decentralizedclimate.org/)
 
-6. Additionally, if you want to add images to your post, place them in the assets directory. Please refer to the README.md for more information.
+6. Additionally, if you want to add images to your post, place them in the assets directory. Please refer to the README for more information.
 
-7. If you have any questions, you can convene a meeting or workshop with the board of directors.
+**Example:**
+
+![](/assets/Readme/p4.png)
+
+**Img4:** Here is an example of how to reference the images located in the assets folder and in the folder where you host the images for your contribution (It is good to maintain this organization to know which images belong to which project).
+
 
 >If you want to include images, but they have a high definition and therefore are very heavy, you can use tools to reduce their size so that they load more easily on WEB3.(Keep in mind that whenever you do this, the image should not lose too much fidelity; reducing it to the appropriate size is the best option).
 EXAMPLE: https://squoosh.app/
@@ -230,6 +253,7 @@ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
 A copy of the license is included in the section entitled "GNU
 Free Documentation License". 
 ```
+
 
 ### Contact: :calling:
 
