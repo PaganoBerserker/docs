@@ -16,7 +16,6 @@ The purpose of the README is to guide on how to contribute to the DCF
 
 ### System requirements. :card_file_box:
 
-* Access to [Fleek](https://fleek.co/) account or creating one.
 * You must have installed [Rubygems version 2.5.0 or higher.](https://rubygems.org/pages/download) (check your Gems version using gem -v  since you may already have it installed on your machine).
 * [GCC 10.2.1 and Make 4.3 or higher](https://www.delftstack.com/es/howto/linux/how-to-install-gcc-compiler-on-ubuntu/) (check versions using gcc -v, g++ -v, and make -v since you may already have it installed on your machine), 
 * As well as [Ruby 2.5.0](https://www.ruby-lang.org/es/documentation/installation/) (check your Ruby version using ruby -v).
@@ -165,23 +164,24 @@ Send a Pull Request to the Develop branch of DCF docs, filling in the requiremen
 >As DCF is a decentralized project, remember that any file, image, or document that you want to contribute needs to have a reasonable size to avoid conflicts when processing it. There are ways to compress it.
 
 
-## :zap: HOW TO MAKE A POST (CONTRIBUTION)  :zap:
-### How to Make a Post in a Jekyll Repository
+## :zap: How to make a post (Contribution)  :zap:
 
-If you want to publish a post or article on docs.decentralizedclimate.org, follow these steps:
+If you want to publish a post or article on https://docs.decentralizedclimate.org/, follow these steps:
 
-**1.-** Create a markdown file in the following directory if it's for the DCF directory:
+#### **1.-** Create a markdown file post.
 
-```
-https://github.com/DECENTRALIZEDCLIMATE/docs/tree/develop/_posts/
+##### a. Make A post for the DCF Directory:
+the markdown post should be allocated in the `_posts` directory
+and the post should be added to the DCF Directory index is at `index.md`
 
-Or in the following directory if it's for social services:
 
-https://github.com/DECENTRALIZEDCLIMATE/docs/tree/develop/_posts/socialserv
-```
+##### b. Make A post for the Social Services Directory:
+the markdown post should be allocated in the `_posts/socialserv` directory:
+and the post should be added to the Social Services Directory index is at `_pages/socialServices.md`
+
 >Here we are simply specifying the path within the docs project, both for social services and for the docs project.
 
-**2.-** The post must contain the following data:
+#### 2.- The post must contain the following data:
 
 - A header with the following data in markdown format:
 
@@ -200,49 +200,48 @@ layout: post
 
 
 
-**3.-** Add link a decentralized post without using permalinks:
+#### 3.- Add link a decentralized post without using permalinks:
 
-- To add a link for social services in WorkFlow Documents, you need to go to /docs/_pages/socialServices.md and add the link in the following format:
- 
+##### a. Here is an example of how the document is added within `_posts/`:
 
-```shell
-## WorkFlow Documents
-| Document | Last Update | 
-| -------- | -------- |
-| [WorkFlow Model]({% post_url socialserv/2023-01-27-socialServicesWorkFlowModel %}) | 2023-01 |
-```
-
-- To add a link for the docs project in Mans & CheetSheets, you should go to /docs/index.md and add the link in the following format:
+![](/assets/Readme/p5.png)
 
 
-```shell
-## Mans & CheetSheets
-| Document | Last Update |
-| -------- | -------- |
-| [Git & GitFlow ES]({% post_url 2023-05-10-January %}) |  2023-01-10 |
-| [Git & GitFlow EN]({% post_url 2023-05-10-FebruaryES %}) |  2023-02-10 |
-```
+##### To add a link the docs project, you should go to `/docs/index.md` and add the link in the following format:
+
+![](/assets/Readme/p8.png)
+
+
+##### b. Here is an example of how the document is added within `_posts/socialserv`
+
+![](/assets/Readme/p6.png)
+
+
+##### To add a link for social services, you neeed to got to `docs/_pages/socialserv` and add the link in the following format:
+
+![](/assets/Readme/p7.png)
 
 >Note that the URL is not a permalink. It is in the format YYYY-MM-DD-myposttopic without the .md extension.
 
+>It is recommended to use tools to verify that your post is decentralized correctly, one of these tools is.
+EXAMPLE: [Fleek](https://app.fleek.co/)
 
-**4.-** Optional: You can fork the project on your user account on the develop branch and link it to hackmd.io to edit before making a commit to your own repository. Then, submit a pull request, or edit the post directly in the GitHub editor.
+#### 4.- Optional: You can fork the project on your user account on the develop branch and link it to hackmd.io to edit before making a commit to your own repository. Then, submit a pull request, or edit the post directly in the GitHub editor.
 
-**5.-** When your request is accepted on the develop branch, it will appear on the following link:
+#### 5.- When your request is accepted on the develop branch, it will appear on the following link:
 
 [**develop branch website**](https://dev.docs.decentralizedclimate.org/)
 
-**6.-** Additionally, if you want to add images to your post, place them in the assets directory. Please refer to the README for more information.
+#### 6.- Additionally, if you want to add images to your post, place them in the assets directory. Please refer to the README for more information.
 
 **Example:**
 
 ![](/assets/Readme/p4.png)
-
-**Img4:** Here is an example of how to reference the images located in the assets folder and in the folder where you host the images for your contribution (It is good to maintain this organization to know which images belong to which project).
+###### **Img4:** Here is an example of how to reference the images located in the assets folder and in the folder where you host the images for your contribution (It is good to maintain this organization to know which images belong to which project).
 
 
 >If you want to include images, but they have a high definition and therefore are very heavy, you can use tools to reduce their size so that they load more easily on WEB3.(Keep in mind that whenever you do this, the image should not lose too much fidelity; reducing it to the appropriate size is the best option).
-EXAMPLE: https://squoosh.app/
+EXAMPLE: [Squoosh](https://squoosh.app/)
 
 
 ### License. :mechanical_arm:
