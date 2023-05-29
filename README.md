@@ -4,71 +4,248 @@ author: Decentralized Climate Foundation
 date: 2022-02-04
 category: README
 layout: post
-permalink: /readme
 ---
 
-## Introduction
+:space_invader:
+[![GNUv1.3 License](https://img.shields.io/badge/License-GNU%20v1.3-yellow.svg)](https://opensource.org/licenses/) [![GitHub contributors](https://img.shields.io/github/contributors/decentralizedclimate/docs.svg?style=flat)]() :space_invader:
 
-The purpose of the following workshop is to decentralize a static website using various free tools and services.
+## :computer:  Introduction :computer:
 
-The process should be documented in a markdown report (cheatsheet).
+The purpose of the README is to guide on how to contribute to the DCF 
+>And not die in the process.
 
-If the foundation has a manual and/or cheatsheet related to the topic, contribute to the foundation's manual, otherwise add the documentation to the docs repository.
+### System requirements. :card_file_box:
 
-Add issues to the official repository if you have found or proposed improvements.
+* You must have installed [Rubygems version 2.5.0 or higher.](https://rubygems.org/pages/download) (check your Gems version using gem -v  since you may already have it installed on your machine).
+* [GCC 10.2.1 and Make 4.3 or higher](https://www.delftstack.com/es/howto/linux/how-to-install-gcc-compiler-on-ubuntu/) (check versions using gcc -v, g++ -v, and make -v since you may already have it installed on your machine), 
+* As well as [Ruby 2.5.0](https://www.ruby-lang.org/es/documentation/installation/) (check your Ruby version using ruby -v).
 
-# Previous knowledge.
+## :electric_plug: Installation :electric_plug:
 
-* Having completed the Git and GitFlow workshop.
-* Basic concepts about IPFS.
-* Access to fleek.co account or creating one.
+Before contributing to DCF, you need to prepare your Linux system with Jekyll by following these steps.
 
-## Cheatsheet
+As mentioned before, you should check that your Linux machine has Ruby version 2.5.0 or higher, including all headers. (If you are not sure if your version has Ruby, you can verify it with the command ruby -v).
 
-The [**docs**](https://githubcom/DECENTRALIZEDCLIMATE/docs) project from the Decentralized Foundation repository is cloned to the local machine.
+```shell
 
-```linux=
-git clone https://github.com/DECENTRALIZEDCLIMATE/docs.git
+$ ruby -v
+
+$ sudo apt-get install ruby-full
+
 ```
 
-The respective dependencies such as ruby and jekyll were installed.
-
-After we have the repository, the template for the webpage is downloaded and implemented within the downloaded repository.
-
-[**Template Dowload**](https://github.com/sighingnow/jekyll-gitbook)
-
-We can use the terminal to download the template faster, and thus have the
-complete directory without errors.
+Please also verify that you have the latest version of RubyGems by using the command gem -v. If it is not installed, you can proceed with the installation.
 
 
-```linux
-git clone https://github.com/sighingnow/jekyll-gitbook.git
+```shell
+
+$ gem -v
+
+$ gem update --system
+
+
 ```
 
-The image shows the replacement of the template files (jekyll-gitboo) in our "docs" file.
-
-![](/assets/Readme/13.32.37.png)
-
-Next, we need to add the .md files from our "docs" folder to the posts on the page. To do this, we must edit each file with its respective header, as shown below, and give it a name that will make it easier for us to keep track of [date-name-language].
-
-Do not forget to respect the format of the template, as well as using the guide posts that come with the same template as examples, in case you have doubts about how to edit the document.
-
-![](/assets/Readme/14.11.21.png)
-![](/assets/Readme/14.18.39.png)
-
-We must properly edit the title (this will be the main title, the others will be subtitles, if using .md, ## should be used for editing the remaining text), the creation date, author, category, and layout.
-
-When we have the files edited with their respective header, we must move the files to "posts" so that when we launch the page, we can visualize the desired change.
-
-![](/assets/Readme/14.34.15.png)
-
-We can go to the URL of our server and we will be able to see that the changes have been made.
-
-![](/assets/Readme/13.32.37.png)
+Make sure that you have GCC 10.2.1 and Make 4.3 or higher installed (You can check their installation by using the commands gcc -v, g++ -v, and make -v, respectively).
 
 
+```shell
 
-### License.
+$ sudo apt-get update
+
+$ sudo apt-get install gcc make
+
+$ make -v
+
+GNU Make 4.3                                                                      
+Built for x86_64-pc-linux-gnu                                                     
+Copyright (C) 1988-2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.                
+There is NO WARRANTY, to the extent permitted by law. 
+
+$ gcc -v
+
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+
+```
+
+Now we need to proceed with installing Bundle 2.4.8 or higher and its gems:
+
+```shell
+
+
+$ gem install jekyll bundler
+
+$ bundle install
+
+$ bindle -v
+
+Bundler version 2.4.8
+
+$ bundle exec jekyll serve
+
+Browse to http://localhost:4000
+
+```
+
+Remember that the last command is to run the website and verify that the contribution runs correctly.
+
+
+## :scroll: How to contribute to Docs Project DCF.  :scroll:
+
+### :notebook: "Verify that there are no issues in Docs Project DCF."  :notebook:
+
+"Verify that there are no issues in Docs Project  DCF that address the contribution or problem you wish to collaborate on (as it may have already been started by another user)."
+
+You can check the issues at the following [**link:**](https://github.com/DECENTRALIZEDCLIMATE/docs/issues)
+
+
+#### :artificial_satellite:  "How to create a proposal or an issue:" :artificial_satellite:
+
+
+If you have previously verified that the proposal or issue does not exist, you can write it following the following format:
+
+After accessing the issues link, we must check if there is no related proposal or issue on the list. If we realize that there is none, we can add one by clicking on the **+** sign and assigning a brief title to it.
+
+
+
+![](/assets/Readme/p1.png)
+
+**Img1:** At the bottom of the issues, you can add a new one (Remember to check that there is no related open issue and its status).
+
+
+![](/assets/Readme/p3.png) 
+
+**Img2:** Once you have confirmed that there is no open issue, you can click on "Create a new issue".
+
+
+![](/assets/Readme/p2.png) 
+
+**Img3:** When contributing, you must specify a short title and also provide a description of the error that will be corrected.
+
+
+---
+
+
+:eye_speech_bubble: **To create an issue in Github, follow these steps:** :eye_speech_bubble:
+
+1. Access the repository page where you want to create the issue.
+2. Click on the "Issues" tab at the top of the page.
+3. Click on the green "New issue" button at the top right of the page.
+4. Write a brief and descriptive title for the issue in the "Title" field.
+5. Describe the problem in detail in the "Write" field.
+6. If applicable, use the text formatting options to add formatting, images, or links.
+7. Label the issue with appropriate tags to make it easier to find and organize. Tags can be customized by the repository or used from a list of common tags.
+8. Assign the issue to a responsible team member or leave it unassigned if not necessary.
+9. If applicable, set a due date for the issue.
+10. Click the green "Submit new issue" button to publish the issue.
+
+It is important to provide all relevant information so that others can understand the problem and help resolve it. Additionally, it is important to label the issue correctly to make it easier to find and organize. If possible, a proposed solution or suggestions to help solve the problem can also be provided.
+
+---
+
+### :speech_balloon: How to contribute after creating my issue :speech_balloon:
+
+You must clone the [docs](https://github.com/DECENTRALIZEDCLIMATE/docs)  repository to your computer (having the necessary tools and packages to run Jekyll on your computer).
+
+
+>If you don't have what is necessary to run the repository, you can install what is pertinent for [Jekyll](https://jekyllrb.com/docs/) by clicking on the link.
+
+
+When you have the repository perfectly installed and configured, you create, improve or solve your issues and send screenshots in the same issue (as responses to it) where we can see the changes and that it works.
+>If you need to access the [Issues](https://github.com/orgs/DECENTRALIZEDCLIMATE/projects/1) section of DCF again, you can click on the link.
+
+
+Send a Pull Request to the Develop branch of DCF docs, filling in the requirements, such as a brief title and comments on what was done. If everything is approved, your issue will be marked as completed and the changes will be added to the project.
+
+#### Suggestions:
+
+>As DCF is a decentralized project, remember that any file, image, or document that you want to contribute needs to have a reasonable size to avoid conflicts when processing it. There are ways to compress it.
+
+
+## :zap: How to make a post (Contribution)  :zap:
+
+If you want to publish a post or article on https://docs.decentralizedclimate.org/, follow these steps:
+
+#### **1.-** Create a markdown file post.
+
+##### a. Make A post for the DCF Directory:
+the markdown post should be allocated in the `_posts` directory
+and the post should be added to the DCF Directory index is at `index.md`
+
+
+##### b. Make A post for the Social Services Directory:
+the markdown post should be allocated in the `_posts/socialserv` directory:
+and the post should be added to the Social Services Directory index is at `_pages/socialServices.md`
+
+>Here we are simply specifying the path within the docs project, both for social services and for the docs project.
+
+#### 2.- The post must contain the following data:
+
+- A header with the following data in markdown format:
+
+
+```
+---
+title: Monthly Activity Report of the Decentralized Climate Foundation A.C. January.
+author: Decentralized Climate Foundation
+date: 2023-05-10
+layout: post
+---
+
+```
+
+- A file name starting with the date in the format YYYY-MM-DD-myposttopic.md. Some examples already exist in the directory.
+
+
+
+#### 3.- Add link a decentralized post without using permalinks:
+
+##### a. Here is an example of how the document is added within `_posts/`:
+
+![](/assets/Readme/p5.png)
+
+
+##### To add a link the docs project, you should go to `/docs/index.md` and add the link in the following format:
+
+![](/assets/Readme/p8.png)
+
+
+##### b. Here is an example of how the document is added within `_posts/socialserv`
+
+![](/assets/Readme/p6.png)
+
+
+##### To add a link for social services, you neeed to got to `docs/_pages/socialserv` and add the link in the following format:
+
+![](/assets/Readme/p7.png)
+
+>Note that the URL is not a permalink. It is in the format YYYY-MM-DD-myposttopic without the .md extension.
+
+>It is recommended to use tools to verify that your post is decentralized correctly, one of these tools is.
+EXAMPLE: [Fleek](https://app.fleek.co/)
+
+#### 4.- Optional: You can fork the project on your user account on the develop branch and link it to hackmd.io to edit before making a commit to your own repository. Then, submit a pull request, or edit the post directly in the GitHub editor.
+
+#### 5.- When your request is accepted on the develop branch, it will appear on the following link:
+
+[**develop branch website**](https://dev.docs.decentralizedclimate.org/)
+
+#### 6.- Additionally, if you want to add images to your post, place them in the assets directory. Please refer to the README for more information.
+
+**Example:**
+
+![](/assets/Readme/p4.png)
+###### **Img4:** Here is an example of how to reference the images located in the assets folder and in the folder where you host the images for your contribution (It is good to maintain this organization to know which images belong to which project).
+
+
+>If you want to include images, but they have a high definition and therefore are very heavy, you can use tools to reduce their size so that they load more easily on WEB3.(Keep in mind that whenever you do this, the image should not lose too much fidelity; reducing it to the appropriate size is the best option).
+EXAMPLE: [Squoosh](https://squoosh.app/)
+
+
+### License. :mechanical_arm:
+
 ```
 Copyright (C) DECENTRALIZED CLIMATE FOUNDATION A.C.
 Permission is granted to copy, distribute and/or modify this document
@@ -78,3 +255,23 @@ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
 A copy of the license is included in the section entitled "GNU
 Free Documentation License". 
 ```
+
+
+### Contact: :calling:
+
+[Decentralized Climate Foundation](https://t.me/decentralizedclimate)
+
+
+### CONTACT AND DEVELOPERS
+>Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org).
+
+Author:
+- [Gustavo Bermudez](mailto:nizaries44@gmail.com)
+										  
+Reviewer:
+- [David E. Perez Negron R.](mailto:david@neetsec.com)
+
+
+
+
+
