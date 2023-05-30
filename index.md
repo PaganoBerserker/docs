@@ -29,7 +29,7 @@ layout: home
 
 | Document | Last Update |
 | -------- | -------- |
-| [Responsabilities](/board_of_directors/2023-01-17-Responsabilities.html) | 2023-01-17 |
+| [Responsabilities]({% post_url 2023-04-06-Responsabilities %}) | 2023-04-06 |
 
 
 ## Governance 
