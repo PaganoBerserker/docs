@@ -5,7 +5,7 @@ date: 2023-05-10
 layout: post
 ---
 
-![](/assets/februaryreporten/Img0.png)
+![](/assets/februaryreport/Img0.png)
 
 Created: **5th March 2023**
 
@@ -22,17 +22,17 @@ The activities for the month of February were divided into 4 main divisions that
 
 **February 2nd, 3rd, and 4th.** The Decentralized Climate Foundation community attended the Solana Etherfuse Hackathon, participating enthusiastically to promote the Foundation's activities, as well as trying to win the competition with a revolutionary and innovative project about better management of pensions for senior citizens.
 
-![](/assets/februaryreporten/Img1.jpg)
+![](/assets/februaryreport/Img1.jpg)
 Img. 1 At the facilities of the central auditorium of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute.
 
-![](/assets/februaryreporten/Img2.jpg)
+![](/assets/februaryreport/Img2.jpg)
 Img. 2 At the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, about to start the project.
 
-![](/assets/februaryreporten/Img3.jpg)
+![](/assets/februaryreport/Img3.jpg)
 Img. 3 At the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, about to start the project.
 
 
-![](/assets/februaryreporten/Img4.jpg)
+![](/assets/februaryreport/Img4.jpg)
 Img. 4 "Leaving the facilities of the computer center of the Interdisciplinary Professional Unit of Engineering and Advanced Technologies of the National Polytechnic Institute, concluding our participation."
 
 
@@ -80,7 +80,7 @@ As a noteworthy mention of these regular tasks, it is worth noting the training 
 
 The Finance section can be found in Annex 5, which details the income, expenses, and expenditures made by the foundation throughout the month.
 
-![](assets/februaryreporten/Img6.png)
+![](assets/februaryreport/Img5.png)
 
 ## :clipboard:Current Projects.
 

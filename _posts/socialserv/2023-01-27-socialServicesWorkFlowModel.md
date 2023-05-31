@@ -67,7 +67,7 @@ En esencia, hay dos roles en el Pair Programming:
 * El **driver o controlador** es el programador encargado de escribir el código y determinar qué funciones, variables y algoritmos utilizarán para avanzar en el proyecto. Además, es importante que verbalice y comparta su proceso lógico mientras codea.
 * El **navigator o navegador** es la persona encargada de revisar el código y guiar a su compañero ofreciendo sugerencias y soluciones a medida que la tarea avanza y surgen nuevos desafíos.
 
-![](https://i.imgur.com/jBJBGqO.png)
+![](/assets/socialserv/socialserv-workflow/ss1.png)
 
 
 ### 3. Kanban
@@ -80,7 +80,8 @@ Kanban es un popular método de gestión del flujo de trabajo para definir, gest
 | Agree to Pursue Incremental, Evolutionary Change 	     | Manage the Work, Not the Workers|
 | Encourage Acts of Leadership at All Levels	    | Regularly Review the Network of Services|
 
-![](https://i.imgur.com/cS0i17S.png)
+
+![](/assets/socialserv/socialserv-workflow/s1s.jpg)
 
 Herramienta 
 
