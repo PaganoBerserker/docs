@@ -51,6 +51,6 @@ layout: home
 
 | Document | Last Update |
 | -------- | -------- |
-| [MaxCurrent MVP](https://hackmd.io/olq6nsUNRR2F3VG1NkWAZA) | 2023-01-07 |
+| [MaxCurrent MVP]({% post_url 2023-01-24-MVP  %}) | 2023-01-07 |
 
 
