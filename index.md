@@ -37,8 +37,7 @@ layout: home
 
 | Document | Link | Network |
 | -------- | -------- | -------- | 
-| [Phase0](/dao_development/2023-01-25-Phase0.html)  | [DecentralizedClimate](https://client.aragon.org/#/decentralizedclimate) | Goerli
-| [Phase1(unfinished)](/dao_development/2023-01-25-Phase1.html)  | [decentralizedclimate.eth](https://demo.snapshot.org/#/decentralizedclimate.eth) | Ethereum Main / Snapshot
+| [Phase0]({% post_url 2023-02-15-DAOP0  %} )  | [DecentralizedClimate](https://client.aragon.org/#/decentralizedclimate) | Goerli 
 
 ### Decentralized Climate Improvement Proposals
 
