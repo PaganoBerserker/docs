@@ -37,7 +37,7 @@ layout: home
 
 | Document | Link | Network |
 | -------- | -------- | -------- | 
-| [Phase0]({% post_url 2023-02-15-DAO  %} )  | [DecentralizedClimate](https://client.aragon.org/#/decentralizedclimate) | Goerli 
+| [Phase0]({% post_url 2023-02-15-DAOP0  %} )  | [DecentralizedClimate](https://client.aragon.org/#/decentralizedclimate) | Goerli 
 
 ### Decentralized Climate Improvement Proposals
 
