@@ -29,13 +29,21 @@ Based on Article 2,207 of the Civil Code of the State of Jalisco, the powers inh
 **The General Director also has the following duties and powers:**
 
 • To attend the meetings of the Association and the general assemblies, presiding over both.
+
 • To convene meetings of the members and general assemblies.
+
 • To ensure that the development of meetings, both of the members and the assemblies, are carried out with all due decorum and correction, being able to make use of lawful means at their disposal to achieve this purpose.
+
 • To appoint or have committees appointed.
+
 • To sign jointly with the secretary the minutes of the sessions of the Association, as well as the minutes of assemblies once they have been approved.
+
 • To approve, jointly with the treasurer, the receipts issued by the Association, as well as all documents that must be paid by it.
+
 • To represent the Association before third parties, judicial, administrative, and labor authorities, both federal and state and municipal, having the right to use the corporate signature for legal and statutory purposes.
+
 • To provide an annual report of their management at the meeting called to give possession to the elected board of directors.
+
 • To appoint a Director General.
 
 ## Secretary.
