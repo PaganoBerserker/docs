@@ -29,10 +29,3 @@ layout: post
 | [Git & GitFlow ES]({% post_url socialserv/2023-03-15-gitflowCheetSheet_ES %}) |  2023-02-16 |
 | [Git & GitFlow EN]({% post_url socialserv/2023-03-15-gitflowCheetSheet_EN %}) |  2023-02-16 |
 
-## Social Services/ JCF templates 
-
-| Document | Last Update |
-| -------- | -------- |
-| [Bitacora Gustavo](https://hackmd.io/vnhr3g1wT6Wg3wPvSQRdqg) | 2023-01-30|
-
-
