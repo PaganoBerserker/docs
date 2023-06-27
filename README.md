@@ -41,9 +41,18 @@ Please also verify that you have the latest version of RubyGems by using the com
 
 $ gem -v
 
-$ gem update --system
+$ gem update --system 
 
+# WARNING: If you need to update the gems, there are 
+# two options: either update them using a tool like rvm# or ruby-install, among others. 
+# It is not necessary to  update them since Ruby is 
+#  already up to date. 
+# Additionally, you can also update them using the 
+# following command: */
 
+$ sudo apt update && sudo apt upgrade
+
+# This command first updates the list of available packages and then updates the installed programs on the system to their latest versions.
 ```
 
 Make sure that you have GCC 10.2.1 and Make 4.3 or higher installed (You can check their installation by using the commands gcc -v, g++ -v, and make -v, respectively).
@@ -83,10 +92,22 @@ $ bindle -v
 
 Bundler version 2.4.8
 
-$ bundle exec jekyll serve
+$ bundle exec jekyll b 
+# This command is used to gathe
+ the changes and clear the cache of the browser 
+ being used.
 
-Browse to http://localhost:4000
+$ bundle exec -H  # IP Server & PC #
 
+# Example: bundle exec -H 10.162.235.52 
+
+# This command helps us configure the IP of the 
+# server being used to run bundle. Remember to enter 
+# the correct IP of your server or PC.
+
+# Remember to run this command in the root folder of 
+# your Git project. Otherwise, you might get warnings 
+# that something was compiled incorrectly, even if it's# being run in a subfolder of the project. 
 ```
 
 Remember that the last command is to run the website and verify that the contribution runs correctly.
