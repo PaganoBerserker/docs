@@ -119,4 +119,11 @@ In conclusion, we believe that this month has been very productive for our found
 4. https://hackmd.io/bcSkwAWZQCihO-1G7eQGZg
 5. https://nextcloud.neetsec.com/index.php/s/MbSsF52fNMwsDp3
 
-Created by Omar Octavio Huerta Valdez.
+## CONTACT AND DEVELOPERS
+> Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org) and [Neetsec International Inc](https://neetsec.com).
+
+Created by:
+- [Octavio Valdez](mailto:ohuerta@decentralizedclimate.org)
+
+Edited by:
+- [Gustavo Bermudez](mailto:nizaries44@gmail.com)

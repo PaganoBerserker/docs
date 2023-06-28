@@ -21,8 +21,12 @@ layout: home
 | [January]({% post_url 2023-05-10-January %}) | 2023-01-10 | 
 | [February ES]({% post_url 2023-05-10-FebruaryES %}) | 2023-02-10 |
 | [February EN]({% post_url 2023-05-10-FebruaryEN %}) | 2023-02-10 |
-| [March ES]({% post_url 2023-05-10-MarchEs  %}) | 2023-03-05 |
+| [March ES]({% post_url 2023-05-10-MarchES  %}) | 2023-03-05 |
 | [March EN]({% post_url 2023-05-10-MarchEN  %}) | 2023-03-05 |
+| [April ES]({% post_url 2023-06-20-AprilES  %}) | 2023-06-20 |
+| [April EN]({% post_url 2023-06-20-AprilEN  %}) | 2023-06-20 |
+
+
 
 ### Board of Directors
 

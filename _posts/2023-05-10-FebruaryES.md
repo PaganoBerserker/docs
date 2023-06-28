@@ -120,4 +120,14 @@ En conclusión, consideramos que este mes ha sido muy fructífero para nuestra f
 4. https://hackmd.io/bcSkwAWZQCihO-1G7eQGZg
 5. https://nextcloud.neetsec.com/index.php/s/MbSsF52fNMwsDp3
 
-Creado por Omar Octavio Huerta Valdez.
+
+## CONTACTO Y DESARROLLADORES
+> Work developed in collaboration with the [Decentralized Climate Foundation](https://decentralizedclimate.org) and [Neetsec International Inc](https://neetsec.com).
+
+Creado por:
+- [Octavio Valdez](mailto:ohuerta@decentralizedclimate.org)
+
+Editado por:
+- [Gustavo Bermudez](mailto:nizaries44@gmail.com)
+
+
